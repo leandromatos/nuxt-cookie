@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "client: chrome",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/example",
+      "osx": {
+        "runtimeExecutable": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",
+      },
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "server: nuxt",
+      "args": [
+        "dev",
+        "example"
+      ],
+      "osx": {
+        "program": "${workspaceFolder}/node_modules/.bin/nuxt"
+      },
+      "linux": {
+        "program": "${workspaceFolder}/node_modules/.bin/nuxt"
+      },
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/nuxt/bin/nuxt.js"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      "name": "nuxt",
+      "configurations": [
+        "server: nuxt",
+        "client: chrome"
+      ]
+    }
+  ]
+}
