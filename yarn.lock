@@ -1421,22 +1421,22 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@leandromatos/eslint-config@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@leandromatos/eslint-config/-/eslint-config-0.0.12.tgz#3ecdf992815219c7b28e739ccc6a69ff953c6bfc"
-  integrity sha512-zzVXLbJpkGXSQyPckxghJRaxJsVj+DlODsYyCBbTXi+o0R4V9IZ05Pa2unluwV1U+gzlEe4uOd72jXzJwDyDEg==
+"@leandromatos/eslint-config@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@leandromatos/eslint-config/-/eslint-config-0.0.14.tgz#d648b1f3339169b25f6e2924e6d8778926dcaa4d"
+  integrity sha512-RgZ1C/kwtFpxvkJUkM0L/YQCVA1jm4krALg5+NyEISaK9T8In5z+BsSnM8q4XTHbSNZXDf4eXWCtZiBIDHNVkg==
   dependencies:
     babel-eslint "^10.1.0"
-    eslint "^7.11.0"
-    eslint-config-prettier "^6.12.0"
+    eslint "^7.12.1"
+    eslint-config-prettier "^6.15.0"
     eslint-plugin-markdown "^1.0.2"
     eslint-plugin-prettier "3.1.4"
-    eslint-plugin-vue "^7.0.1"
+    eslint-plugin-vue "^7.1.0"
 
-"@leandromatos/prettier-config@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@leandromatos/prettier-config/-/prettier-config-0.0.7.tgz#b9db2b4563a471c75167c60eb58762bd8f260add"
-  integrity sha512-uib0UGC86OEHanEhmJn9BI36GRixRritJeIIQ6VHxF8j9Xfegt7ZSwEgwW7Hd930snaxSPdB7ntL/LX9OYGQVQ==
+"@leandromatos/prettier-config@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@leandromatos/prettier-config/-/prettier-config-0.0.8.tgz#c5da38cae025a7277dacb9cebfa449a96dd9a0b1"
+  integrity sha512-0k9tSrgK7a7KGds+KeHzyvpNw4M0oXbwm/M/tNZYDI4BbTOA58XIzfe/yehXQvKz5REt0gRyaMN1vnAyrYNYCA==
   dependencies:
     prettier "^2.1.2"
 
@@ -4728,7 +4728,7 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@^6.12.0:
+eslint-config-prettier@^6.15.0:
   version "6.15.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.15.0.tgz#7f93f6cb7d45a92f1537a70ecc06366e1ac6fed9"
   integrity sha512-a1+kOYLR8wMGustcgAjdydMsQ2A/2ipRPwRKUmfYaSxc9ZPcrku080Ctl6zrZzZNs/U82MjSv+qKREkoq3bJaw==
@@ -4762,7 +4762,7 @@ eslint-plugin-prettier@3.1.4:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-vue@^7.0.1:
+eslint-plugin-vue@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.1.0.tgz#832d83e4e1e480c7285b2bc3ff1076cd0dca7a5b"
   integrity sha512-9dW7kj8/d2IkDdgNpvIhJdJ3XzU3x4PThXYMzWt49taktYnGyrTY6/bXCYZ/VtQKU9kXPntPrZ41+8Pw0Nxblg==
@@ -4805,7 +4805,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.11.0, eslint@^7.12.1:
+eslint@^7.12.1:
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.12.1.tgz#bd9a81fa67a6cfd51656cdb88812ce49ccec5801"
   integrity sha512-HlMTEdr/LicJfN08LB3nM1rRYliDXOmfoO4vj39xN6BLpFzF00hbwBoqHk8UcJ2M/3nlARZWy/mslvGEuZFvsg==
